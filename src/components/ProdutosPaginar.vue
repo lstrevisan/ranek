@@ -1,11 +1,9 @@
 <template>
-<div>
-    <ul>
+    <ul v-if="paginasTotal > 1">
         <li v-for="pagina in paginas" :key="pagina">
             <router-link :to="{query: query(pagina)}">{{pagina}}</router-link>
         </li>
     </ul>
-</div>
 </template>
 <script>
 export default {
@@ -51,7 +49,7 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
 ul{
     grid-column: 1 / -1;
 }
