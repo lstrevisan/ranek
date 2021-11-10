@@ -1,15 +1,62 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "728",
+        "bairro": "Bairro",
+        "cidade": "Rio de Janeiro",
+        "estado": "RS"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "teste@gmail.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "smartphone",
+        "nome": "Smartphone",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "96700000",
+        "rua": "Marcionilio Saraiva da Fonseca",
+        "numero": "728",
+        "bairro": "",
+        "cidade": "São Jerônimo",
+        "estado": "RS"
+      },
+      "id": 2
+    }
+  ],
   "usuario": [
     {
       "id": "andre@origamid.com",
+      "nome": "Lucas Souza Trevisan",
       "email": "andre@origamid.com",
-      "nome": "André Rafael",
       "senha": "123",
-      "rua": "Rua Ali Perto",
       "cep": "12345678",
-      "numero": "25",
-      "estado": "RJ",
-      "cidade": "Rio de Janeiro"
+      "rua": "Rua Ali Perto",
+      "numero": "728",
+      "bairro": "Bairro",
+      "cidade": "Rio de Janeiro",
+      "estado": "RS"
     },
     {
       "id": "joao@origamid.com",
@@ -31,6 +78,18 @@
       "rua": "Marcionilio Saraiva da Fonseca",
       "numero": "728",
       "bairro": "Centro",
+      "cidade": "São Jerônimo",
+      "estado": "RS"
+    },
+    {
+      "id": "teste@gmail.com",
+      "nome": "Usuario teste",
+      "email": "teste@gmail.com",
+      "senha": "123",
+      "cep": "96700000",
+      "rua": "Marcionilio Saraiva da Fonseca",
+      "numero": "728",
+      "bairro": "",
       "cidade": "São Jerônimo",
       "estado": "RS"
     }
@@ -467,6 +526,20 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
+    },
+    {
+      "nome": "Produto de teste",
+      "preco": "2345",
+      "descricao": "Esse produto é de teste",
+      "fotos": null,
+      "id": "lf9yYZT"
+    },
+    {
+      "nome": "Produto de teste",
+      "preco": "2345",
+      "descricao": "Esse produto é de teste",
+      "fotos": null,
+      "id": "mQpDRdO"
     }
   ]
 }
